@@ -1,0 +1,116 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:3c30bb39-9645-5b1c-bf7e-cb142eb44c33",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-06T14:24:43Z",
+    "component": {
+      "type": "application",
+      "name": "NEOVIM_PRIOR_DOCS",
+      "version": "09e4491a5351",
+      "bom-ref": "pkg:generic/anticloud/NEOVIM_PRIOR_DOCS@09e4491a5351",
+      "purl": "pkg:generic/anticloud/NEOVIM_PRIOR_DOCS@09e4491a5351",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "09e4491a5351e37cea4ed83b163de315fedc2eaa"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/neovim/neovim"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "Luv",
+      "version": "unspecified",
+      "purl": "pkg:generic/Luv",
+      "bom-ref": "native/Luv@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Iconv",
+      "version": "unspecified",
+      "purl": "pkg:generic/Iconv",
+      "bom-ref": "native/Iconv@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Libuv",
+      "version": "unspecified",
+      "purl": "pkg:generic/Libuv",
+      "bom-ref": "native/Libuv@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Treesitter",
+      "version": "unspecified",
+      "purl": "pkg:generic/Treesitter",
+      "bom-ref": "native/Treesitter@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "UTF8proc",
+      "version": "unspecified",
+      "purl": "pkg:generic/UTF8proc",
+      "bom-ref": "native/UTF8proc@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Libintl",
+      "version": "unspecified",
+      "purl": "pkg:generic/Libintl",
+      "bom-ref": "native/Libintl@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Unibilium",
+      "version": "unspecified",
+      "purl": "pkg:generic/Unibilium",
+      "bom-ref": "native/Unibilium@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Wasmtime",
+      "version": "unspecified",
+      "purl": "pkg:generic/Wasmtime",
+      "bom-ref": "native/Wasmtime@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Lua",
+      "version": "unspecified",
+      "purl": "pkg:generic/Lua",
+      "bom-ref": "native/Lua@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Luajit",
+      "version": "unspecified",
+      "purl": "pkg:generic/Luajit",
+      "bom-ref": "native/Luajit@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Gettext",
+      "version": "unspecified",
+      "purl": "pkg:generic/Gettext",
+      "bom-ref": "native/Gettext@unspecified"
+    }
+  ]
+}
